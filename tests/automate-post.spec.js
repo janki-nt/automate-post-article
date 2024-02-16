@@ -30,7 +30,7 @@ const { chromium } = require('playwright');
 
         // Create and append the first image
         const img1 = document.createElement('img');
-        img1.src = 'https://images.pexels.com/photos/593655/pexels-photo-593655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+        img1.src = 'https://images.pexels.com/photos/593655/pexels-photo-593655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=0.2';
         img1.alt = 'Image 1';
         // img1.height = "50px";
         // img1.width = "50px";
@@ -38,7 +38,7 @@ const { chromium } = require('playwright');
 
         // Create and append the second image
         const img2 = document.createElement('img');
-        img2.src = 'https://images.pexels.com/photos/593655/pexels-photo-593655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
+        img2.src = 'https://images.pexels.com/photos/593655/pexels-photo-593655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=0.2';
         img2.alt = 'Image 2';
         // img2.height = "50px";
         // img2.width = "50px";
